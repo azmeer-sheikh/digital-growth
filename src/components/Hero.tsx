@@ -20,7 +20,7 @@ export function Hero() {
           <img 
             src="/logo.png" 
             alt="HIVE TECH SOLUTION" 
-            className="h-6 md:h-10 lg:h-12" 
+            className="h-12 md:h-10 lg:h-12" 
           />
         </motion.div>
         
