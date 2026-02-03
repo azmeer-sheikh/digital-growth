@@ -10,7 +10,7 @@ export function Hero() {
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
       </div>
       
-      <div className="relative max-w-7xl mx-auto px-6 py-16 lg:py-24">
+      <div className="relative max-w-7xl mx-auto px-3 py-16 lg:py-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -20,7 +20,7 @@ export function Hero() {
           <img 
             src="/logo.png" 
             alt="HIVE TECH SOLUTION" 
-            className="h-6 md:h-10 lg:h-12 w-auto " 
+            className="h-6 md:h-10 lg:h-12" 
           />
         </motion.div>
         
