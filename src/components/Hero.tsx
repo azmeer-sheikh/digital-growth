@@ -15,26 +15,13 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="flex items-center gap-3 mb-6"
+          className="mb-8"
         >
-          <motion.div 
-            whileHover={{ scale: 1.1, rotate: 5 }}
-            className="bg-gradient-to-br from-orange-500 to-amber-500 p-2.5 rounded-xl shadow-lg"
-          >
-            <Rocket className="w-6 h-6 text-white" />
-          </motion.div>
-          <motion.div 
-            whileHover={{ scale: 1.1, rotate: -5 }}
-            className="bg-gradient-to-br from-blue-600 to-blue-700 p-2.5 rounded-xl shadow-lg"
-          >
-            <TrendingUp className="w-6 h-6 text-white" />
-          </motion.div>
-          <motion.div 
-            whileHover={{ scale: 1.1, rotate: 5 }}
-            className="bg-gradient-to-br from-orange-500 to-amber-500 p-2.5 rounded-xl shadow-lg"
-          >
-            <Sparkles className="w-6 h-6 text-white" />
-          </motion.div>
+          <img 
+            src="/logo.png" 
+            alt="HIVE TECH SOLUTION" 
+            className="h-6 md:h-10 lg:h-12 w-auto " 
+          />
         </motion.div>
         
         <motion.h1 
